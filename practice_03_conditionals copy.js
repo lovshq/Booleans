@@ -14,7 +14,18 @@
 //   "negative even"   if num is negative and even
 //   "negative odd"    if num is negative and odd
 function classifyNumber(num) {
-  // TODO: your code here
+  if (num === 0) {
+   return("zero")
+  } else if (num > 0 && num % 2 === 0) {
+   return("positive even")
+  } else if (num > 0 && num % 2 !== 0) {
+    return("positive odd")
+  } else if (num < 0 && num % 2 === 0) {
+    return("negative even")
+  } else if (num < 0 && num % 2 !== 0){
+    return("negative odd")
+  }
+
 }
 
 console.log(classifyNumber(0)); // "zero"
