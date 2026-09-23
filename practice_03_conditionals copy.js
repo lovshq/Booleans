@@ -43,7 +43,7 @@ console.log(classifyNumber(-7)); // "negative odd"
 //   below 60 -> "F"
 // If score is less than 0 or greater than 100, return "Invalid score".
 function getLetterGrade(score) {
-  // TODO: your code here
+  if(num)
 }
 
 console.log(getLetterGrade(95)); // "A"
